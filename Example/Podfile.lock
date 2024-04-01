@@ -1,0 +1,58 @@
+PODS:
+  - AliPlayerSDK_iOS (6.10.0):
+    - AliPlayerSDK_iOS/AliPlayerSDK (= 6.10.0)
+  - AliPlayerSDK_iOS/AliPlayerSDK (6.10.0)
+  - LookinServer (1.2.7):
+    - LookinServer/Core (= 1.2.7)
+  - LookinServer/Core (1.2.7)
+  - PlayerExt (0.1.0):
+    - PlayerExt/AliPlayer (= 0.1.0)
+    - PlayerExt/AVPlayer (= 0.1.0)
+    - PlayerExt/Core (= 0.1.0)
+    - PlayerExt/TXLiteAVPlayer (= 0.1.0)
+    - PlayerExt/VHLivePlayer (= 0.1.0)
+  - PlayerExt/AliPlayer (0.1.0):
+    - AliPlayerSDK_iOS
+  - PlayerExt/AVPlayer (0.1.0):
+    - ZFPlayer/AVPlayer
+  - PlayerExt/Core (0.1.0):
+    - ZFPlayer
+  - PlayerExt/TXLiteAVPlayer (0.1.0):
+    - TXLiteAVSDK_Player
+  - PlayerExt/VHLivePlayer (0.1.0):
+    - VHLiveSDK
+  - TXLiteAVSDK_Player (11.7.15343)
+  - VHLiveSDK (6.19.6)
+  - ZFPlayer (4.1.4):
+    - ZFPlayer/Core (= 4.1.4)
+  - ZFPlayer/AVPlayer (4.1.4):
+    - ZFPlayer/Core
+  - ZFPlayer/Core (4.1.4)
+
+DEPENDENCIES:
+  - LookinServer
+  - PlayerExt (from `../`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AliPlayerSDK_iOS
+    - LookinServer
+    - TXLiteAVSDK_Player
+    - VHLiveSDK
+    - ZFPlayer
+
+EXTERNAL SOURCES:
+  PlayerExt:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AliPlayerSDK_iOS: 707bd2a4b98987ab3ba14187f2bf2cdb2fa67a90
+  LookinServer: 36f1a0ad280de34b9794cf8825867fcc2dd93e75
+  PlayerExt: 44d04330b0f87b74b52f9bba9630181c3a246f70
+  TXLiteAVSDK_Player: e9d874476ba53eed784c083bd58e56e972e0f8c1
+  VHLiveSDK: ca87a0e705cdeecc36b22899898fd9decf80ae5a
+  ZFPlayer: 5cf39e8d9f0c2394a014b0db4767b5b5a6bffe13
+
+PODFILE CHECKSUM: 20ac5646c91041d19361b95a14282b582354d56e
+
+COCOAPODS: 1.15.2

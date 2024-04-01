@@ -1,0 +1,5 @@
+framework module PlayerExt {
+    private header "PlayerExt.h"
+
+    export *
+}
